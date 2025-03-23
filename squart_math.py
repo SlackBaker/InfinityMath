@@ -40,14 +40,6 @@ def plot_function(func, x_range):
     plt.grid(True)
     plt.show()
 
-# example of usage:
-def my_function(x):
-    return x * np.sqrt(np.abs(x)) * np.sin(x)  # Використовуємо np для стабільності
-
-
-# draw function from -10 to 10
-plot_function(my_function, (-10, 10))
-
 def plot_multiple_functions(functions, x_range):
     x = np.linspace(x_range[0], x_range[1], 1000)
     plt.figure()
@@ -62,6 +54,3 @@ def plot_multiple_functions(functions, x_range):
     plt.grid(True)
     plt.legend([f"f{x}" for x in range(1, len(functions)+1)])
     plt.show()
-
-# Використання:
-plot_multiple_functions([my_function, lambda x: np.cos(x)], (-10, 10))
