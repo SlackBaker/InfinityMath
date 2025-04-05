@@ -60,3 +60,5 @@ InfinityMath.graphics.plot_function(f, -math.pi, math.pi)
 
 This project is open-source. You are free to modify and distribute it.
 
+## Pypi link:
+- pip install InfinityMath
