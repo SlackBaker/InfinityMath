@@ -1,0 +1,5 @@
+Copyright 2025 Ostap Dziubyk
+
+This project is open-source software. You are free to use, modify,
+and distribute it under the terms of an open-source license.
+Contributions and improvements are welcome!
